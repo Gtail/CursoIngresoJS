@@ -1,6 +1,8 @@
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");
+	let importeIngresado;
+	
+
+
 
 }//FIN DE LA FUNCIÓN

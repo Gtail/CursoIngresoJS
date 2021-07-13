@@ -14,3 +14,12 @@ function mostrarAumento() {
   resultado = importe - descuento;
   document.getElementById("txtIdResultado").value = resultado;
 }
+
+
+/* importe = document.getElementById("txtIdImporte").value;
+importe = parseFloat(ImporteIngresado);
+resultado = importe * 0.75;
+resultado = importe - (importe * 0.25);
+resultado = importe * 1.25
+probar con alert a ver si esta funcionando lo que estamos haciendo
+*/

@@ -1,6 +1,10 @@
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	let max = 10;
+	let min = 1;
+	let resultado;
 
+	resultado = Math.floor((math.random()*(max - min)) + min);
+	alert(resultado);
+	
 }//FIN DE LA FUNCIÓN

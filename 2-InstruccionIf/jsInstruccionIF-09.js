@@ -4,7 +4,7 @@ function mostrar()
 	let min = 1;
 	let resultado;
 
-	resultado = Math.floor((math.random()*(max - min)) + min);
+	resultado = Math.floor((Math.random ()*(max - min)) + min);
 	alert(resultado);
-	
+
 }//FIN DE LA FUNCIÓN

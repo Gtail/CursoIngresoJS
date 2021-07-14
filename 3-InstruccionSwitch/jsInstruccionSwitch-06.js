@@ -35,6 +35,7 @@ function mostrar() {
     case "24":
     case "0":
       alert("es de noche");
+      break;
     default:
       alert("la hora no existe");
   }

@@ -3,7 +3,7 @@ function mostrar() {
 
   destino = document.getElementById("txtIdDestino").value;
 
-  /*switch (destino) {
+  switch (destino) {
     case "Cataratas":
       alert("Norte");
       break;
@@ -14,16 +14,8 @@ function mostrar() {
       alert("Este");
 	  break;
     default:
-      alert("Oeste");*/
-  
+      alert("Oeste");
+  }
+}
 /*Al selecionar un destino , indicar el punto cardinal de nuestro pais en donde se encuentra Norte, Sur, Este u Oeste
  */
-
-if (destino == "Cataratas"){
-  alert("Norte");
-} else if (destino == "Ushuaia"){
-  alert("Sur");
-} else if(destino == "Mar del Plata"){
-  alert("Este");
-} else{ alert("Oeste");}
-}

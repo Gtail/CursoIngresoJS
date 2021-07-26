@@ -19,11 +19,12 @@ function mostrar()
 			maximo = numero;
 			minimo = numero;
 		 flag = 1;
-		} else if(numero > maximo){
+		} else{ if(numero > maximo){
 			maximo = numero;
 		} else if (numero < minimo) {
 			minimo = numero;
 		}
+	}
 
 
    
@@ -34,7 +35,7 @@ function mostrar()
 	   
 	} while(respuesta == "si");
 
-	document.getElementById("txtIdMaximo").value; = maximo
-	document.getElementById("txtIdMinimo").value; = minimo
+	document.getElementById("txtIdMaximo").value = maximo;
+	document.getElementById("txtIdMinimo").value = minimo;
 
 }
